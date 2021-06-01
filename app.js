@@ -233,7 +233,7 @@ else if (taskNum === 8) {
   	  sqrValues = calculateSquare(base, perpendicular);
   	  var sqrBase = sqrValues[0];
   	  var sqrPerpendicular = sqrValues[1];
-  	  return sqrBase + sqrPerpendicular;
+  	  return Math.sqrt(sqrBase + sqrPerpendicular);
   	  
   }
   var base = 6;
