@@ -239,10 +239,10 @@ else if (taskNum === 8) {
     var sqrPerpendicular = sqrValues[1];
     var hypotenuse = Math.sqrt(sqrBase + sqrPerpendicular);
     if (hypotenuse % 1 === 0) {
-    				return hypotenuse;
+    	return hypotenuse;
     }
     else {
-    				return hypotenuse.toFixed(2);
+    	return hypotenuse.toFixed(2);
     }
   }
   var base = 6;
@@ -319,7 +319,7 @@ else if (taskNum === 11) {
     for (var i = 0; i < length; i++) {
       cappedStr += str[0].toUpperCase() + str.slice(1, str.indexOf(" ") + 1);
       if (str[str.indexOf(" ") + 1] == undefined) {
-      				return cappedStr;
+      	return cappedStr;
       }
       str = str.slice(str.indexOf(" ") + 1);
       if (str.indexOf(" ") === -1) {
